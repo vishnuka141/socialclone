@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/95070c6490.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- navbar -->
+    <div class=" navbackground fixed-top">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#"><i class="fa-brands fa-blogger text-white fs-2"><span
+                            class="blog">L</span><span class="blog">O</span><span class="blog">G</span></i></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                    <form class="d-flex" role="search">
+                        <input class=" me-2 border-0" type="search" placeholder="Search" aria-label="Search">
+                        <button class="bg-light border border-0" type="submit">
+                            <i class="fa-solid fa-magnifying-glass text-danger"></i>
+                        </button>
+                    </form>
+                    <ul class="navbar-nav ms-auto ">
+
+
+                    </ul>
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item text-lg-center me-4">
+                            <a href=""><i class="fa-solid fa-house-chimney-window text-white"></i></a>
+                            <a class="nav-link text-white" aria-current="page" href="#">
+                                Home</a>
+                        </li>
+                        <li class="nav-item text-lg-center  me-4">
+                            <a href=""><i class="fa-solid fa-envelope text-white"></i></a>
+                            <a class="nav-link  text-white" href="#">
+                                Messages</a>
+                        </li>
+                        <li class="nav-item text-lg-center  me-4">
+                            <a href=""><i class="fa-solid fa-bell text-white"></i></a>
+                            <a class="nav-link  text-white" href="#">
+                                Notifications</a>
+                        </li>
+                        <li class="nav-item text-lg-center dropdown me-4">
+                            <a href=""><i class="fa-solid fa-user-group text-white"></i></a>
+                            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+    <div style="background: #ebebebd6;" class="mt-5 border border-1">
+        <div class="container">
+            <div class="row">
+                <!--contents left-section -->
+                <div class="col-lg-3">
+                    <div class="left-section mt-5">
+                        <div class="card border-0" style="width: rem;">
+                            <div class="profile-pic">
+                                <img class="rounded mx-auto d-block  mt-5" style="width: 40%;"
+                                    src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="">
+                            </div>
+                            <ul class="list-group border-0 list-group-flush">
+                                <li class="blank" style="list-style: none;color: white;"></li>
+                                <li class="list-group-item">
+                                    <h4 class="text-center ">Name</h4>
+                                    <p class="text-center ">Photographer </p>
+                                </li>
+                                <li class="list-group-item">
+                                    <h5 class="text-secondary">Following</h5>
+                                    <p class="fs-5">45</p>
+                                </li>
+                                <li class="list-group-item">
+                                    <h5 class="text-secondary">Followers</h5>
+                                    <p class="fs-5">34 </p>
+                                </li>
+                                <li class="list-group-item">
+                                    <a href="" style="color: #e44d3a;">Viewprofile</a>
+                                </li>
+                            </ul>
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <!--Middle  post box-->
+                    <div class="middle-section bg-white border border-1 mt-5">
+                        <div class="bkg-line"></div>
+                        <form class="mt-2" action="" method="post" enctype="multipart/form-data">
+                            <h6 class="text-center text-secondary">Write a Blog</h6>
+                            <hr>
+                            <div class="mt-3 ms-3">
+                                <input class="form-control" type="text" style="width: 90%;border: 1px solid #857f7e78;"
+                                    placeholder="Title">
+
+
+                                <!-- <i class="fa-solid fa-image"></i> -->
+                            </div>
+
+                            <div class="mt-3 ms-3">
+                                <input class="form-control" style="width: 90%;border: 1px solid #857f7e78;" type="file">
+                            </div>
+                            <div class="mt-3 ms-3">
+                                <textarea class="" style="width: 90%;border: 1px solid #857f7e78;"
+                                    placeholder="Write your Post" name="" id="" cols="56" rows="5"></textarea>
+                            </div>
+
+                            <div class="text-end">
+                                <button class=" mt-3 me-5">Publish</button>
+                            </div>
+                        </form>
+                        <div class="bkg-line mt-3"></div>
+                    </div>
+                    <!-- posts -->
+
+                    <div class="mt-5 border border-1  posts bg-white">
+                        <div class=" ">
+                            <div class="card border-0 ms-4 me-2">
+                                <div class="mt-3 ms-3">
+                                    <img class="" style="border-radius: 50%;height:3rem;width: 11%;"
+                                        src="best_photo_poses_for_men-1.jpg" alt="">
+                                    <span class="fs-5">Name
+                                    </span>
+                                    <p class="text-secondary">Published : </p>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title"> title</h5>
+                                </div>
+
+                                <img src="best_photo_poses_for_men-1.jpg" style="width: 96%;" class="img-fluid"
+                                    alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                </div>
+                                <!-- like & comment -->
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item"></li>
+                                    <li class="list-group-item">
+                                        <a href="" style="text-decoration: none;"><i class="fa-solid fa-thumbs-up"
+                                                style="color: #e44d3a;"></i>
+                                            <span class="text-secondary">24</span>
+                                        </a>
+                                        <a class="ms-4" href="" style="text-decoration: none;"><i
+                                                class="fa-solid fa-comment" style="color: #e44d3a;"></i>
+                                            <span class="text-secondary">84</span>
+                                        </a>
+                                        <div class="mt-4">
+                                            <form class="form" action="">
+
+                                                <div class="d-flex flex-row mb-3">
+
+                                                    <input class="form-control" type="text"
+                                                        placeholder="Write a comment">
+
+                                                    <div class="send-com">
+                                                        <button class="border-0"><i class="fa-solid fa-paper-plane"
+                                                                style="color: #e44d3a;"></i></button>
+                                                    </div>
+                                                </div>
+
+
+                                            </form>
+                                        </div>
+
+                                        <div class="pt-3" style="background-color: #e7e7e778;border-radius: 6%;">
+                                            <img class="ms-3 mb-2" style="border-radius: 50%;height:1.6rem;width: 6%;"
+                                                src="best_photo_poses_for_men-1.jpg" alt="">
+                                            <span class="fs-5">Name
+                                            </span>
+                                            <p class="card-text ms-3 me-2 mt-2 text-secondary">Some quick example text
+                                                to build on the card title and make up
+                                                the bulk of the card's content.</p>
+                                        </div>
+
+                                    </li>
+                                    <li class="list-group-item"></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="col-lg-3">
+                    <div class="middle-section bg-white  mt-5">
+                        <div class="card mt-4 border-0">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Suggestions</li>
+                                <!-- <li class="list-group-item">A second item</li>
+                          <li class="list-group-item">A third item</li> -->
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
